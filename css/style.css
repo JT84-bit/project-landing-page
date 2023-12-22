@@ -1,12 +1,24 @@
-body {
+html,
+body,
+.wrapper{
+    height: 100%;
+    margin: 0; 
+}
+
+.wrapper {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+
 }
 
 .header {
     justify-content: center;
     display: flex;
-    flex-grow: 1;
+    flex: 1 1 0px;
     background-color: #1F2937;
 }
 
@@ -31,19 +43,19 @@ body {
 
 .information-section {
     display: flex;
-    flex-grow: 1;
+    flex: 1 1 0px;
     background-color: white;
 }
 
 .quote-section {
     display: flex;
-    flex-grow: 1;
+    flex: 1 1 0px;
     background-color: #E5E7EB;
 }
 
 .sign-section {
     display: flex;
-    flex-grow: 1;
+    flex: 1 1 0px;
     background-color: white;
 }
 
