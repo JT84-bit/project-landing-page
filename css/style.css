@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    justify-content: center;
+    display: flex;
+    flex-grow: 1;
+    background-color: #1F2937;
+}
+
+.first-row {
+    display: flex;
+
+}
+
+.first-row ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.first-row ul li a {
+    display: flex;
+    color: #E5E7EB;
+    gap: 5px;
+    font-size: 18px;
+}
+
+.information-section {
+    display: flex;
+    flex-grow: 1;
+    background-color: white;
+}
+
+.quote-section {
+    display: flex;
+    flex-grow: 1;
+    background-color: #E5E7EB;
+}
+
+.sign-section {
+    display: flex;
+    flex-grow: 1;
+    background-color: white;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.logo {
+    margin-left: auto;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+}
