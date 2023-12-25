@@ -3,7 +3,7 @@ body,
 .wrapper{
     height: 130%;
     width: 85%;
-    margin: 0; 
+    margin: auto;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -193,15 +193,56 @@ body,
 
 .sign-section {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     flex: 1 1 0px;
     background-color: white;
+}
+
+.bottom-first {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .footer {
     display: flex;
     background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
 
+.sign-banner {
+    display: flex;
+    width: 800px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 120px;
+    height: 120px;
+    justify-content: space-evenly;
+    align-self:center;
+
+}
+
+.sign-texts {
+    align-self: center;
+}
+
+.banner-text1 {
+    margin-bottom: 0;
+    font-size: large;
+    font-weight: 700;
+}
+
+.banner-text2 {
+    margin-top: 0;
+    
+}
 
 .sign-button {
     display: inline-block;
@@ -213,7 +254,13 @@ body,
     width: 100px;
     height: 30px;
     padding: 0px;
-    background-color: blue;
+    background-color: #3882F6;
+}
+
+.sign-banner .sign-button {
+    border-color: white;
+    color: white;
+    align-self: center;
 }
 
 a {
