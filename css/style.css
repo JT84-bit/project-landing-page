@@ -116,8 +116,50 @@ body,
 .information-section {
     display: flex;
     flex: 1 1 0px;
+    justify-content: flex-start;
+    flex-direction: column;
     background-color: white;
 }
+
+.pictures-row {
+    display: flex;
+}
+
+.pic1,
+.pic2,
+.pic3,
+.pic4 {
+    display: block;
+    border: 5px solid #3882F6 ;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.pic-contain1,
+.pic-contain2,
+.pic-contain3,
+.pic-contain4{
+    width: 130px;
+    text-align: center;
+    color: rgb(85, 82, 82);
+}
+
+.second-header {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pictures-row {
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+}
+
+
+/* -------------------------------Third section starts here-------------------------------------*/
 
 .quote-section {
     display: flex;
