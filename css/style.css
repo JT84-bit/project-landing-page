@@ -164,8 +164,32 @@ body,
 .quote-section {
     display: flex;
     flex: 1 1 0px;
+    justify-content: center;
+    flex-direction: column;
     background-color: #E5E7EB;
 }
+
+.quote-container {
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+.quote {
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.q-author {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 230px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* -------------------------------Fourth section starts here-------------------------------------*/
 
 .sign-section {
     display: flex;
